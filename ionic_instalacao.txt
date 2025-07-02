@@ -1,0 +1,152 @@
+Microsoft Windows [versão 10.0.26100.4349]
+(c) Microsoft Corporation. Todos os direitos reservados.
+
+C:\Users\luanm>npm install -g @ionic/cli
+npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+
+changed 210 packages in 16s
+
+35 packages are looking for funding
+  run `npm fund` for details
+
+C:\Users\luanm>ionic start tilt-alarm blank --type=angular --capacitor
+? Would you like to build your app with Standalone Components or NgModules?
+ Standalone components are the default way to build with Angular that simplifies the way you build your app.
+ To learn more, visit the Angular docs:
+ https://angular.dev/guide/components
+
+ Standalone
+? .\tilt-alarm exists. Overwrite? Yes
+√ Preparing directory .\tilt-alarm in 1.73s
+√ Downloading and extracting blank starter in 793.53ms
+> ionic integrations enable capacitor --quiet -- tilt-alarm io.ionic.starter
+> npm.cmd i --save -E @capacitor/core@latest
+npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+
+added 1212 packages, and audited 1213 packages in 1m
+
+256 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+> npm.cmd i -D -E @capacitor/cli@latest
+
+added 63 packages, and audited 1276 packages in 11s
+
+264 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+> npm.cmd i --save -E @capacitor/haptics @capacitor/app @capacitor/keyboard @capacitor/status-bar
+
+added 4 packages, and audited 1280 packages in 5s
+
+264 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+> capacitor.cmd init tilt-alarm io.ionic.starter --web-dir www
+√ Creating capacitor.config.ts in C:\Users\luanm\tilt-alarm in 2.03ms
+[success] capacitor.config.ts created!
+
+Next steps:
+https://capacitorjs.com/docs/getting-started#where-to-go-next
+[OK] Integration capacitor added!
+
+Installing dependencies may take several minutes.
+
+  ──────────────────────────────────────────────────────────────────────
+
+      Ionic Enterprise, platform and solutions for teams by Ionic
+
+                  Powerful library of native APIs
+                 A supercharged platform for teams
+
+         Learn more: https://ion.link/enterprise
+
+  ──────────────────────────────────────────────────────────────────────
+
+
+> npm.cmd i
+
+up to date, audited 1280 packages in 4s
+
+264 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+Join the Ionic Community! 💙
+
+Connect with millions of developers on the Ionic Forum and get access to live events, news updates, and more.
+
+? Create free Ionic account? No
+
+Your Ionic app is ready! Follow these next steps:
+
+- Go to your new project: cd .\tilt-alarm
+- Run ionic serve within the app directory to see your app in the browser
+- Run ionic capacitor add to add a native iOS or Android project using Capacitor
+- Generate your app icon and splash screens using cordova-res --skip-config --copy
+- Explore the Ionic docs for components, tutorials, and more: https://ion.link/docs
+- Building an enterprise app? Ionic has Enterprise Support and Features: https://ion.link/enterprise-edition
+
+C:\Users\luanm>cd tilt-alarm
+
+C:\Users\luanm\tilt-alarm>npm install @capacitor/motion
+
+added 1 package, and audited 1281 packages in 5s
+
+264 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Users\luanm\tilt-alarm>ionic cap add android
+> npm.cmd i -E @capacitor/android@7.4.0
+
+added 1 package, and audited 1282 packages in 5s
+
+264 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+> capacitor.cmd add android
+[capacitor] √ Adding native android project in android in 183.37ms
+[capacitor] √ add in 184.67ms
+[capacitor] [warn] sync could not run--missing www directory.
+[capacitor] [success] android platform added!
+[capacitor] Follow the Developer Workflow guide to get building:
+[capacitor] https://capacitorjs.com/docs/basics/workflow
+
+C:\Users\luanm\tilt-alarm>ionic serve
+> ng.cmd run app:serve --host=localhost --port=8100
+[ng] > Building...
+[ng] √ Building...
+[ng] Initial chunk files   | Names         |  Raw size
+[ng] styles.css            | styles        |  35.72 kB |
+[ng] main.js               | main          |   2.72 kB |
+[ng] polyfills.js          | polyfills     | 143 bytes |
+[ng]                       | Initial total |  38.58 kB
+[ng] Lazy chunk files      | Names         |  Raw size
+[ng] home.page-PYVTOO6J.js | home-page     |   4.44 kB |
+[ng] Application bundle generation complete. [7.885 seconds]
+[ng] NOTE: Raw file sizes do not reflect development server per-request transformations.
+
+[INFO] Development server running!
+
+       Local: http://localhost:8100
+
+       Use Ctrl+C to quit this process
+
+[ng]   ➜  Local:   http://localhost:8100/
+[ng]   ➜  press h + enter to show help
+[INFO] Browser window opened to http://localhost:8100!
+
+[ng] ^C
+
+C:\Users\luanm\tilt-alarm>
